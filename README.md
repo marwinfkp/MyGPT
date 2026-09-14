@@ -98,7 +98,7 @@ Create a `.env` file in the project root directory.
 
 ```env
 GOOGLE_API_KEY=your_google_api_key
-GOOGLE_MODEL=gemini-2.5-flash
+GOOGLE_MODEL=gemini-3.6-flash
 
 TAVILY_API_KEY=your_tavily_api_key
 
@@ -328,7 +328,7 @@ Example:
 ```text
 AWS_DEFAULT_REGION=us-east-1
 ECR_REPO=MyGPT
-GOOGLE_MODEL=gemini-2.5-flash
+GOOGLE_MODEL=gemini-3.6-flash
 LANGSMITH_TRACING=true
 LANGSMITH_ENDPOINT=https://api.smith.langchain.com
 LANGSMITH_PROJECT=MyGPT
